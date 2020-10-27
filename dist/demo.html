@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<title>vue-pinch-zoom demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./vue-pinch-zoom.umd.js"></script>
+
+<link rel="stylesheet" href="./vue-pinch-zoom.css">
+
+
+<div id="app">
+  <demo></demo>
+</div>
+
+<script>
+new Vue({
+  components: {
+    demo: vue-pinch-zoom
+  }
+}).$mount('#app')
+</script>
