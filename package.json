@@ -1,8 +1,25 @@
 {
   "name": "vue-pinch-zoom",
-  "version": "0.1.0",
-  "private": true,
-  "main": "./dist/vue-pinch-zoom.umd.min.js",
+  "version": "1.0.1",
+  "description": "Pinch zoom component for Vue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drozhzhin-n-e/vue-pinch-zoom.git"
+  },
+  "author": {
+    "name": "Nikita Drozhzhin",
+    "email": "drozhzhin.n.e@gmail.com"
+  },
+  "homepage": "http://ivylab.space/pinch-zoom/vue",
+  "keywords": [
+    "Vue",
+    "Pinch zoom",
+    "Touch image zoom"
+  ],
+  "license": "Apache License 2.0",
+  "main": "dist/PinchZoom.umd.js",
+  "unpkg": "dist/PinchZoom.umd.min.js",
+  "typings": "types/index.d.ts",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
